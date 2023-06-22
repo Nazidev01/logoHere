@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body {
+
+}
+#header {
+    background: rgba(33, 33, 33, 0.7);
+    padding: 10px 0 ;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: .5s alternate logo;
+}
+@keyframes logo {
+    0% {
+        transform: translate(-100px);
+    }
+    50% {
+        opacity: .3;
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.header-nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-logo h1 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #DEDEDE;
+    padding-left: 10px;
+}
+.header-nav a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #DEDEDE;
+    margin: 0 25px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title {
+    animation: .4s alternate name;
+}
+@keyframes name {
+    0%{
+        transform: translate(-1000px);
+        opacity: 0;
+    }
+    50%{
+        opacity: .3;
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.hero-title-img {
+    animation: img 3s infinite linear;
+}
+@keyframes img {
+    0% {
+        opacity: 0;
+    }
+}
+
+#hero {
+    background: #29292a;
+    padding: 40px 0;
+}
+.hero-title h1 {
+    width: 612px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #DEDEDE;
+    margin: 30px 0;
+
+}
+.hero-title p {
+    width: 624px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #959595;
+    margin: 30px 0 ;
+}
+.hero-title button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #9D9D9D;
+    border-radius: 4px;;
+    padding: 10px 40px;
+    transition:.2s;
+}
+.hero-title button:hover{
+    transform: scale(1.1);
+    background: #29292a;
+    color: #FFFFFF;
+}
+.hero ion-icon {
+    margin: 0 10px ;
+}
+#foto {
+    background: #29292a;
+    padding: 40px 0;
+}
+.foto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  20px  30px ;
+}
+.foto-text {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    opacity: 0.7;
+    margin-left: 80px ;
+    padding: 40px 0 ;
+
+}
+.foto-text ion-icon {
+    color: red;
+    margin: 0 10px
+}
+.foto-1 {
+    margin-block-end: 250px;
+    animation: foto 3s infinite linear;
+}
+@keyframes foto {
+    0% {
+        opacity: 0;
+    }
+}
+.foto-2 {
+    animation: img 6s infinite linear;
+}
+@keyframes img {
+    0% {
+        opacity: 0;
+    }
+}
+
+
+
+#visual {
+    background: #29292a;
+    padding: 10px 0 ;
+}
+.visual-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 ;
+    padding: 30px 0 ;
+}
+.visual-text {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    margin: 30px 0 ;
+}
+#person {
+    background: #29292a;
+    padding: 10px 0 ;
+}
+
+
+
+.person-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px ;
+    padding-right: 20px;
+}
+.persona-text {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    margin: 30px 0;
+    padding: 60px 0 ;
+}
+
+
+#contact {
+    background: #29292a;
+    padding: 10px 0 ;
+}
+.contact-title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    margin: 30px 0;
+}
+.contact-title p {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #959595;
+    margin: 30px 0 ;
+}
+.contact-title button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #9D9D9D;
+    border-radius: 4px;;
+    padding: 20px 60px;
+    margin-left: 365px;
+    transition: .4s;
+}
+.contact-title button:hover {
+    transform: scale(.1.1);
+    background: #29292a;
+    color: #DEDEDE;
+}
+
+.contact-title  ion-icon {
+    margin: 0 10px ;
+}
+
+#foot {
+    background: #29292a;
+    padding: 20px 0 0 0  ;
+    border-radius: 5px ;
+    border: #9D9D9D;
+}
+
+.foot-footers {
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    border: rgba(128, 123, 123, 0.78);
+    background: #29292a;
+    padding: 30px 0;
+}
+.foot-footers h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #959595;
+}
+.foot-footers span {
+    color: #FFFFFF;
+}
+.foot-footers ion-icon {
+    color: #959595;
+    padding: 0 10px ;
+
+}
